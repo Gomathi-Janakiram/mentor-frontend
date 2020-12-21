@@ -1,4 +1,4 @@
-var url = "http://localhost:3000/"
+var url = "https://mentor-task6.herokuapp.com/"
 function getMentors() {
     fetch(url + "mentors")
         .then((resp) => {
